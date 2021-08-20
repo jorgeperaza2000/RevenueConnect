@@ -1,0 +1,8 @@
+VPN
+server: vpn.kipany.com
+user: fbriceno
+pass: FrBr0803!
+
+GitHub
+fbriceno2
+Fb15662977

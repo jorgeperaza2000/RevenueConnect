@@ -274,16 +274,13 @@ footer {
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-
     #offer {
-        margin-top: 0px;
+        margin-top: 0;
     }
-
     #banner_img {
         background-position: -270px 0px;
         height: 70vh;
     }
-
 }
 
 /*X-Large devices (large desktops, less than 1400px)*/
@@ -309,7 +306,7 @@ footer {
 
 @media (max-width: 500px) {
     #offer {
-        margin-top: 0;
+        margin-top: -40px;
     }
 }
 

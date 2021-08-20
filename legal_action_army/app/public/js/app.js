@@ -4,6 +4,7 @@ $("#question-four-for-me, #question-four-for-loved").hide();
 $("#question-five-for-me, #question-five-for-loved").hide();
 
 $(".form").attr('disabled', true);
+$("#steps").show();
 
 var current_cuestion = parseInt($("#current-question").html());
 
@@ -53,6 +54,7 @@ $(document).ready(function(){
         $('input[name="question-five"]').val($(".step-six-for-me").html());
         $("#question-five-for-me").fadeOut('slow');
         $(".form").attr('disabled', false);
+        $("#steps").fadeOut('slow');
     });
     /* END FOR ME */
 
@@ -101,6 +103,7 @@ $(document).ready(function(){
         $('input[name="question-five"]').val($(".step-six-for-loved").html());
         $("#question-five-for-loved").fadeOut('fast');
         $(".form").attr('disabled', false);
+        $("#steps").fadeOut('slow');
     });
     /* END FOR A LOVED ONE */
 

@@ -1,4 +1,0 @@
-/images/CI/%NombreProyecto%/
-/views/files/%NombreProyecto%/    register fullfilment
-/views/shared/_LayoutCI%NombreProyecto%/ 
-/controllers/HomeControllers.

@@ -115,6 +115,20 @@ body {
     color: #fff;
 }
 
+#steps-process {
+    font-size: 1.2rem;
+}
+
+.step-four:disabled {
+    background-color: #888888;
+    border: 1px solid #666666;
+}
+.step-four:disabled:hover {
+    background-color: #666666;
+    border: 1px solid #333333;
+    cursor: not-allowed;
+}
+
 #register {
     background-color: #fff;
     color: #888888;
@@ -151,14 +165,40 @@ footer {
     border-color: #e0af63;
     font-size: x-small;
     font-weight: bold;
+    outline: none;
+    box-shadow: none;
 }
 
-.btn-success:hover {
+.btn-success:hover, .btn-success:focus {
     color: #fff;
-    background-color: #e0af63;
-    border-color: #e0af63;
+    background-color: #c2934a;
+    border-color: #c2934a;
     font-size: x-small;
     font-weight: bold;
+    outline: none;
+    box-shadow: none;
+}
+.btn-success.disabled, .btn-success:disabled {
+    background-color: #666666;
+    border: 1px solid #333333;
+}
+.btn-success:disabled:hover, .btn-success:disabled:focus {
+    background-color: #666666;
+    border: 1px solid #333333;
+    cursor: not-allowed;
+}
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #c2934a;
+    border-color: #c2934a;
+    font-size: x-small;
+    font-weight: bold;
+    outline: none;
+    box-shadow: none;
+}
+.btn-success:not(:disabled):not(.disabled).active:focus, .btn-success:not(:disabled):not(.disabled):active:focus, .show>.btn-success.dropdown-toggle:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 .btn-primary {

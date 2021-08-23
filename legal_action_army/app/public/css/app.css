@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+
 body {
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
@@ -230,8 +232,13 @@ footer {
 }
 #quote-carousel .carousel-item {
     min-height: 18rem;
-    padding-top: 40px;
+    padding-top: 8rem;
     color: #fff;
+}
+#quote-carousel .signature {
+    font-family: 'WindSong', cursive;
+    font-size: 2rem;
+    color: #e0af63;
 }
 #quote-carousel .carousel-control {
     background: none;

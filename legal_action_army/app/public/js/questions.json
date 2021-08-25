@@ -1,0 +1,31 @@
+{
+    "paraquat": {
+        "questions": [
+            {
+                "question": "IS THIS FOR YOU OR A LOVED ONE?", 
+                "answers_type": "yes_no", 
+                "answers_value": ["For me", "For a loved one"]
+            },
+            {
+                "question": "WERE YOU DIAGNOSED WITH PARKINSON’S DISEASE AND USED PARAQUAT WEED KILLER PRIOR TO YOUR DIAGNOSIS?",
+                "answers_type": "yes_no", 
+                "answers_value": ["Yes", "No"]
+            },
+            {
+                "question": "WHAT YEAR DID EXPOSURE FIRST BEGIN?",
+                "answers_type": "input", 
+                "input_placeholcer": "YEAR",
+                "input_name": "question-3",
+                "btn_text": "NEXT"
+            },
+            {
+                "question": "WHAT WERE YOU DIAGNOSED WITH?",
+                "answers_type": "select", 
+                "answers_value": ["Parkinson’s disease", "Lung scarring", "Kidney failure", "Heart failure", "Esophageal strictures"],
+                "input_placeholcer": "-- SELECT --",
+                "select_name": "question-4",
+                "btn_text": "NEXT"
+            }
+        ] 
+    }
+}

@@ -203,11 +203,17 @@
                 <input type="hidden" placeholder="4" name="question-four" value="">
                 <input type="hidden" placeholder="5" name="question-five" value="">
                 
-                <!-- <section id="question-example" class="mt-3">
+                <!-- QUESTION 1 -->
+                <section id="question-one" class="mt-3">
                     <div class="container-fluid">
                         <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center pb-2">
+                                <img src="images/hernia.png" class="img-fluid" style="width: 100px;">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
                             <div class="col-md-6 col-sm-12 text-center">
-                                <span class="yellow" id="question">Is this <span class="black">for you</span> or a loved one?</span>
+                                <span class="yellow">Is this <span class="black">for you</span> or a loved one?</span>
                             </div>
                         </div>
                         <div class="row justify-content-center pb-5">
@@ -219,13 +225,213 @@
                             </div>
                         </div>
                     </div>
-                </section> -->
-
-                <section id="questions" class="mt-3">
-
                 </section>
+                <!-- START FOR ME -->                
+                <!-- QUESTION 2 FOR ME -->
+                <section id="question-two-for-me">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center pb-2">
+                                <img src="images/sirena.png" class="img-fluid" style="width: 100px;">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center">
+                                <span class="yellow">Were you diagnosed with Parkinson’s disease and used Paraquat weed
+                                    killer prior to your diagnosis?</span>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center pb-5">
+                            <div class="col-md-2 p-2">
+                                <button type="button" class="btn btn-primary w-100 step-three-for-me">Yes</button>
+                            </div>
+                            <div class="col-md-2 p-2">
+                                <button type="button" class="btn btn-success w-100 step-three-for-me">No</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- QUESTION 3 FOR ME -->
+                <section id="question-three-for-me">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center pb-2">
+                                <img src="images/sirena.png" class="img-fluid" style="width: 100px;">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center">
+                                <span class="yellow">What year did exposure first begin?</span>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center pb-5">
+                            <div class="col-md-1 p-2">
+                                <input type="text" name="step-three-for-me" class="form-control text-center" placeholder="YEAR" maxlength="4" >
+                            </div>
+                            <div class="col-md-1 p-2">
+                                <button type="button" class="btn btn-success w-100 step-four-for-me" disabled>Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- QUESTION 4 FOR ME-->
+                <section id="question-four-for-me">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center pb-2">
+                                <img src="images/sirena.png" class="img-fluid" style="width: 100px;">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center">
+                                <span class="yellow">What were you diagnosed with?</span>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center pb-5">
+                            <div class="col-md-2 col-sm-10 text-center pb-2">
+                                <select class="form-select form-control form-select-md" name="step-four-for-me">
+                                    <option selected value="">-- Select --</option>
+                                    <option value="Parkinson’s disease">Parkinson’s disease</option>
+                                    <option value="Lung scarring">Lung scarring</option>
+                                    <option value="Kidney failure">Kidney failure</option>
+                                    <option value="heart failure">Heart failure</option>
+                                    <option value="esophageal strictures">Esophageal strictures</option>
+                                </select>
+                            </div>
+                            <div class="col-md-1 p-2">
+                                <button type="button" class="btn btn-success w-100 step-five-for-me">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- QUESTION 5 FOR ME -->
+                <section id="question-five-for-me">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center pb-2">
+                                <img src="images/sirena.png" class="img-fluid" style="width: 100px;">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center">
+                                <span class="yellow">Are you working with an attorney?</span>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center pb-5">
+                            <div class="col-md-2 p-2">
+                                <button type="button" class="btn btn-primary w-100 step-six-for-me">Yes</button>
+                            </div>
+                            <div class="col-md-2 p-2">
+                                <button type="button" class="btn btn-success w-100 step-six-for-me">No</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- END FOR ME -->    
                 
-                
+                <!-- START FOR A LOVED ONE -->
+                <!-- QUESTION 2 FOR A LOVED ONE -->
+                <section id="question-two-for-loved">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center pb-2">
+                                <img src="images/sirena.png" class="img-fluid" style="width: 100px;">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center">
+                                <span class="yellow">Was your family member diagnosed with Parkinson’s disease and used
+                                    Paraquat week killer prior to your diagnosis?</span>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center pb-5">
+                            <div class="col-md-2 p-2">
+                                <button type="button" class="btn btn-primary w-100 step-three-for-loved">Yes</button>
+                            </div>
+                            <div class="col-md-2 p-2">
+                                <button type="button" class="btn btn-success w-100 step-three-for-loved">No</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- QUESTION 3 FOR A LOVED ONE -->
+                <section id="question-three-for-loved">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center pb-2">
+                                <img src="images/sirena.png" class="img-fluid" style="width: 100px;">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center">
+                                <span class="yellow">What year did exposure first begin?</span>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center pb-5">
+                            <div class="col-md-1 p-2">
+                                <input type="text" name="step-three-for-loved" class="form-control text-center" placeholder="YEAR" maxlength="4" >
+                            </div>
+                            <div class="col-md-1 p-2">
+                                <button type="button" class="btn btn-success w-100 step-four-for-loved" disabled>Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- QUESTION 4 FOR A LOVED ONE-->
+                <section id="question-four-for-loved">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center pb-2">
+                                <img src="images/sirena.png" class="img-fluid" style="width: 100px;">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center">
+                                <span class="yellow">What were you diagnosed with?</span>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center pb-5">
+                            <div class="col-md-2 col-sm-10 text-center pb-2">
+                                <select class="form-select form-control form-select-md" name="step-four-for-loved">
+                                    <option selected value="">-- Select --</option>
+                                    <option value="Parkinson’s disease">Parkinson’s disease</option>
+                                    <option value="Lung scarring">Lung scarring</option>
+                                    <option value="Kidney failure">Kidney failure</option>
+                                    <option value="heart failure">Heart failure</option>
+                                    <option value="esophageal strictures">Esophageal strictures</option>
+                                </select>
+                            </div>
+                            <div class="col-md-1 p-2">
+                                <button type="button" class="btn btn-success w-100 step-five-for-loved">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- QUESTION 5 FOR A LOVED ONE -->
+                <section id="question-five-for-loved">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center pb-2">
+                                <img src="images/sirena.png" class="img-fluid" style="width: 100px;">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 col-sm-12 text-center">
+                                <span class="yellow">Are you working with an attorney?</span>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center pb-5">
+                            <div class="col-md-2 p-2">
+                                <button type="button" class="btn btn-primary w-100 step-six-for-loved">Yes</button>
+                            </div>
+                            <div class="col-md-2 p-2">
+                                <button type="button" class="btn btn-success w-100 step-six-for-loved">No</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- END FOR A LOVED ONE -->
+
                 <div class="row justify-content-center mt-4">
                     <div class="col-lg-3 d-none d-sm-block">
                         <div class="row row-cols-2">

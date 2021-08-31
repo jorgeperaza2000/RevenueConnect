@@ -278,7 +278,20 @@ footer {
     float: left;
     margin-right: 10px;
 }
-
+.question_separator {
+    border: 1px solid #e0af63;
+}
+#register .question_number {
+    font-size: 2rem;
+    font-weight: 600;
+    width: 58px;
+    height: 58px;
+    border: 5px solid #e0af63;
+    margin: 1rem auto 2rem;
+    color: #000;
+    border-radius: 50%;
+    padding-bottom: 3rem;
+}
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     #offer {

@@ -1,7 +1,8 @@
 $(document).ready(function(){
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    const subdomain = urlParams.get('page')
+    let subdomain = "paraquat";
+    subdomain = (urlParams.get('page'))?urlParams.get('page'):subdomain;
     //const subdomain = "3m-earplugs3";
     $("#completion_form").hide();
     var current_question = 1;
